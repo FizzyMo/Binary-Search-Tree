@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\Binary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A282D63A-8122-41B0-B812-C6D98E3CC43B}|Binary.vcxproj|C:\\Users\\Owner\\OneDrive\\Desktop\\Binary\\Binary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A282D63A-8122-41B0-B812-C6D98E3CC43B}|Binary.vcxproj|solutionrelative:Binary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A282D63A-8122-41B0-B812-C6D98E3CC43B}|Binary.vcxproj|C:\\Users\\Owner\\OneDrive\\Desktop\\Binary\\data.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A282D63A-8122-41B0-B812-C6D98E3CC43B}|Binary.vcxproj|solutionrelative:data.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "data.txt",
+              "DocumentMoniker": "C:\\Users\\Owner\\OneDrive\\Desktop\\Binary\\data.txt",
+              "RelativeDocumentMoniker": "data.txt",
+              "ToolTip": "C:\\Users\\Owner\\OneDrive\\Desktop\\Binary\\data.txt",
+              "RelativeToolTip": "data.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-08-14T21:57:34.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Binary.cpp",
+              "DocumentMoniker": "C:\\Users\\Owner\\OneDrive\\Desktop\\Binary\\Binary.cpp",
+              "RelativeDocumentMoniker": "Binary.cpp",
+              "ToolTip": "C:\\Users\\Owner\\OneDrive\\Desktop\\Binary\\Binary.cpp",
+              "RelativeToolTip": "Binary.cpp",
+              "ViewState": "AQIAAOkAAAAAAAAAAAAkwAQBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-14T21:57:19.316Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
