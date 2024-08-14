@@ -181,12 +181,11 @@ public:
 
 int main() {
     BinarySearchTree bst;
+    std::set<int> valuesInFile;
 
     // Open the input file "data.txt" for reading
-
     std::ifstream inputFile("data.txt");
     int value;
-
 
     // Read and display integers from the file before inserting them into the BST
     std::cout << "Integers in the file:" << std::endl;
@@ -195,6 +194,8 @@ int main() {
         std::cout << value << " ";
         // Insert the integer into the BST
         bst.insert(value);
+        // Store the integer in the set
+        valuesInFile.insert(value);
     }
     // Add a new line after displaying the integers
     std::cout << std::endl;
@@ -222,11 +223,24 @@ int main() {
             std::cout << "\nEnter value to insert: ";
             std::cin >> value;
             bst.insert(value);
+            valuesInFile.insert(value);
             break;
         case 2:
             std::cout << "\nEnter value to delete: ";
             std::cin >> value;
-            bst.remove(value);
+            if (valuesInFile.find(value) != valuesInFile.end()) {
+                bst.remove(value);
+                valuesInFile.erase(value); 
+                std::cout << "Value deleted." << std::endl;
+            }
+            else {
+                std::cout << "Value not found in the file. Please choose a valid number from the list." << std::endl;
+                std::cout << "Valid numbers: ";
+                for (int v : valuesInFile) {
+                    std::cout << v << " ";
+                }
+                std::cout << std::endl;
+            }
             break;
         case 3:
             try {
