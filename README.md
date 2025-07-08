@@ -1,3 +1,4 @@
+![Header](https://github.com/user-attachments/assets/a039ce3a-a652-4d0a-be3e-b0ee4b55c83c)
 <h1 align="center">Binary Search Tree (BST) Implementation and Analysis</h1>
 
 This project demonstrates the implementation and analysis of a Binary Search Tree (BST) in C++. The BST is a fundamental data structure that enables practical insertion, deletion, and search operations.
